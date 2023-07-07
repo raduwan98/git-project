@@ -1,0 +1,403 @@
+html,body{margin:0; font-size:16px;}
+h1,h2,h3,p,figure{margin:0;}
+ul,li{list-style-type: none; padding:0; margin:0;}
+img{vertical-align: top;}
+a{
+    text-decoration: none; 
+    color:inherit;
+}
+*{
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+a,b,i,em,strong,span{display: inline-block;}
+
+
+$wid : 1296px;
+
+header{
+    .e1 {
+        max-width: $wid;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        svg {
+            width: 75px;
+            height: 25px;
+        }
+    
+        path,
+        use {
+            fill: black
+        }
+    
+        nav {
+            ul {
+    
+                margin: 0 auto;
+                list-style-type: none;
+                display: flex;
+    
+            }
+    
+            li {
+                margin: 0 5px;
+                padding: 0 15px;
+                font-family: 'Gothic A1', sans-serif;
+                font-size: 16px;
+    
+            }
+    
+            a {
+                text-decoration: none;
+                color: black;
+            }
+    
+        }
+    
+    
+    
+    }
+}
+
+
+footer{
+    .footer_1 {
+        background: var(--colorBg3);
+        border-top: 1px solid #ebebeb;
+        display: block;
+    
+    
+    
+    
+    
+    
+    
+        .footer_2 {
+            max-width: $wid;
+            height: 219px;
+            margin: 0 auto;
+            padding: 37px 0 48px;
+    
+    
+            .menu {
+                float: left;
+                width: 14.28%;
+                margin: 0 auto;
+                padding: 0;
+            }
+    
+            .menu_1 {
+                line-height: 20px;
+                letter-spacing: -.2px;
+                color: #888;
+            }
+    
+            li {
+                margin-top: 12px;
+            }
+    
+    
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    .footer_3 {
+        margin: 0 auto;
+        margin-top: 120px;
+        font-size: 12px;
+        width: $wid;
+        height: 58px;
+    
+    
+        .group {
+            width: $wid;
+            height: 58px;
+            margin-bottom: 100%;
+            margin: 0 auto;
+            padding: 0;
+        }
+    
+        .group_1 {
+            float: left;
+            margin-left: -24px;
+    
+    
+        }
+    
+        .group_2 {
+            float: left;
+            position: relative;
+            line-height: 18px;
+            margin-left: 24px
+        }
+    
+        a {
+            font-size: 12px;
+            letter-spacing: -.2px;
+            color: #888;
+        }
+    
+    }
+    
+    .group1 {
+        a {
+            float: right;
+    
+            width: 208px;
+            font-size: 12px;
+    
+            background: #eee;
+            border-radius: 24px;
+            margin: 0 auto;
+            padding: 10px 20px 12px;
+    
+            svg {
+                float: right;
+                width: 14px;
+                height: 14px;
+                margin-top: 3px;
+    
+            }
+    
+    
+    
+            small {
+    
+                margin: 0 auto;
+                display: block;
+                font-size: 12px;
+                color: #888;
+                clear: both;
+            }
+        }
+    
+    
+    
+    
+    
+    
+    }
+    
+}
+
+
+
+
+// =====================================================================================
+// =================================1439px================================================
+// =====================================================================================
+
+@media (max-width:1439px) { 
+    $wid : 952px;
+}
+
+
+// =====================================================================================
+// =================================1023px================================================
+// =====================================================================================
+@media(max-width: 1023px) {
+    $wid : 630px;
+}
+
+
+// =====================================================================================
+// =================================767px================================================
+// =====================================================================================
+@media(max-width: 767px) {
+
+    $wid : 364px;
+
+    header{
+        .e1 {
+            max-width: $wid;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        
+            svg {
+                width: 75px;
+                height: 25px;
+            }
+        
+            path,
+            use {
+                fill: black
+            }
+        
+            nav {
+                ul {
+        
+                    margin: 0 auto;
+                    list-style-type: none;
+                    display: flex;
+        
+                }
+        
+                li {
+                    margin: 0 5px;
+                    padding: 0 15px;
+                    font-family: 'Gothic A1', sans-serif;
+                    font-size: 16px;
+        
+                }
+        
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+        
+            }
+        
+        
+        
+        }
+    }
+    
+    
+    footer{
+        .footer_1 {
+            background: var(--colorBg3);
+            border-top: 1px solid #ebebeb;
+            display: block;
+        
+        
+        
+        
+        
+        
+        
+            .footer_2 {
+                max-width: $wid;
+                height: 219px;
+                margin: 0 auto;
+                padding: 37px 0 48px;
+        
+        
+                .menu {
+                    float: left;
+                    width: 14.28%;
+                    margin: 0 auto;
+                    padding: 0;
+                }
+        
+                .menu_1 {
+                    line-height: 20px;
+                    letter-spacing: -.2px;
+                    color: #888;
+                }
+        
+                li {
+                    margin-top: 12px;
+                }
+        
+        
+            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+        
+        .footer_3 {
+            margin: 0 auto;
+            margin-top: 120px;
+            font-size: 12px;
+            width: $wid;
+            height: 58px;
+        
+        
+            .group {
+                width: $wid;
+                height: 58px;
+                margin-bottom: 100%;
+                margin: 0 auto;
+                padding: 0;
+            }
+        
+            .group_1 {
+                float: left;
+                margin-left: -24px;
+        
+        
+            }
+        
+            .group_2 {
+                float: left;
+                position: relative;
+                line-height: 18px;
+                margin-left: 24px
+            }
+        
+            a {
+                font-size: 12px;
+                letter-spacing: -.2px;
+                color: #888;
+            }
+        
+        }
+        
+        .group1 {
+            a {
+                float: right;
+        
+                width: 208px;
+                font-size: 12px;
+        
+                background: #eee;
+                border-radius: 24px;
+                margin: 0 auto;
+                padding: 10px 20px 12px;
+        
+                svg {
+                    float: right;
+                    width: 14px;
+                    height: 14px;
+                    margin-top: 3px;
+        
+                }
+        
+        
+        
+                small {
+        
+                    margin: 0 auto;
+                    display: block;
+                    font-size: 12px;
+                    color: #888;
+                    clear: both;
+                }
+            }
+        
+        
+        
+        
+        
+        
+        }
+        
+    }
+    
+
+}
