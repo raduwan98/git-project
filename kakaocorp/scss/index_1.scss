@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;600&display=swap');
+@import './_reset';
+
+
+$wid : 1296px;
+
+
+.kakao { max-width: 1296px; 
+    
+
+    padding: 0;
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.i {
+    ul {
+        font-size: 24px;
+        display: flex;
+        width: 100%;
+
+        margin: 0 auto;
+        padding: 10px;
+
+        li {
+            margin-left: 40px;
+        }
+    }
+}
+
+
+
+.main_1 {
+    
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-top: 96px;
+    .m1 {
+        max-width: 100%;
+
+        margin: 0 auto;
+        background: no-repeat;
+        background-size: 56px 56px;
+        background-image: url("../img/ico_tit_culture.gif");
+        padding-left: 68px;
+
+        h1 {
+            display: block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+        }
+    }
+
+    b {
+        display: block;
+        font-weight: 400;
+        margin-top: 3px;
+        font-size: 28px;
+        line-height: 52px;
+    }
+
+}
+
+.mov1 {
+   display: block;
+    max-width: 100%;
+   
+
+}
+
+
+
+.footer_3 {
+    margin: 0 auto;
+    margin-top: 120px;
+    font-size: 12px;
+    width: $wid;
+    height: 58px;
+
+
+    .group {
+        width: $wid;
+        height: 58px;
+        margin-bottom: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .group_1 {
+        float: left;
+        margin-left: -24px;
+
+
+    }
+
+    .group_2 {
+        float: left;
+        position: relative;
+        line-height: 18px;
+        margin-left: 24px
+    }
+
+    a {
+        font-size: 12px;
+        letter-spacing: -.2px;
+        color: #888;
+    }
+
+}
+
+.group1 {
+    a {
+        float: right;
+
+        width: 208px;
+        font-size: 12px;
+
+        background: #eee;
+        border-radius: 24px;
+        margin: 0 auto;
+        padding: 10px 20px 12px;
+
+        svg {
+            float: right;
+            width: 14px;
+            height: 14px;
+            margin-top: 3px;
+
+        }
+
+
+
+        small {
+
+            margin: 0 auto;
+            display: block;
+            font-size: 12px;
+            color: #888;
+            clear: both;
+        }
+    }
+}
